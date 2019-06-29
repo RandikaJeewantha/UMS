@@ -1,0 +1,49 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+}
+
+main {
+	width: 1000px;
+	margin: 45px auto;
+	background: black;
+	padding: 20px;
+}
+
+main h1 {
+	margin-bottom: 20px;
+	color: white;
+}
+
+table.masterlist {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.masterlist th {
+	background: #aaa;
+	text-align: left;
+}
+
+table.masterlist th, table.masterlist td {
+	padding: 10px;
+	border-bottom: 1px solid #aaa;
+}
+
+table.masterlist td {
+	background: white;
+}
+
+main h2 {
+	text-align: right;
+	color: blue;
+}

@@ -1,0 +1,26 @@
+header {
+	overflow: auto;
+	padding: 10px;
+	background: black;
+	margin-top: 0px;
+}
+
+header .loggedin {
+	float: right;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+header #date {
+	color: white;
+	float: left;
+	margin: 0px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+header .loggedin a {
+	font-weight: bold;
+	color: red;
+}

@@ -1,0 +1,104 @@
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 98% 96%;
+	background-color: black;
+}
+
+.middle {
+	width: 500px;
+	height: 500px;
+	margin-left: 400px;
+	position: fixed;
+	position: center;
+	background-image: url(../images/b.jpg);
+	background-repeat: no-repeat;
+	background-size: 500px , 1000px;
+	background-position: center;
+}
+
+h4 {
+	font-family: monospace;
+	font-weight: bold;
+	color: blue;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 80px;
+	height: 25px;
+	margin-top: 120px;
+	position: fixed;
+}
+
+h3 {
+	margin-left: 80px;
+	margin-top: 35px;
+	color: #5D5D5D;
+}
+
+#userName {
+	margin-left: 80px;
+	text-align: center;
+	margin-top: 180px;
+}
+
+#password {
+	margin-left: 50px;
+	text-align: center;
+}
+
+#signBtn {
+	margin-top: 40px;
+	margin-left: 80px;
+	width: 350px;
+	color: #5D5D5D;
+	border-radius: 5px;
+}
+
+#signBtn:hover {
+	transition: 0.3s;
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.8);
+}
+
+.error {
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 16px;
+	color: red;
+	text-align: left;
+	margin-left: 75px;
+	height: 25px;
+	margin-top: 70px;
+	position: fixed;
+}
+
+#register {
+	margin-left: 1000px;
+	margin-top: 50px;
+	position: relative;
+}
+
+#link {
+	text-decoration: none;
+}
+
+#button-div {
+	background: rgba(72,61,139,0.9);
+	color: #fff;
+	width: 240px;
+	display: inline-flex;
+	padding: 5px 20px;
+	border-radius: 8px;
+	height: 50px;
+}
+
+#button-div #button_text {
+	text-align: center;
+	position: relative;
+	font-size: 22px;
+	padding-left: 34px;
+	font-weight: bold;
+	margin-top: 10px;
+}

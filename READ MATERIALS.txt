@@ -1,0 +1,60 @@
+# You need firstly install mysql and php.
+
+# Database folder has mysql database file.
+	* You need to import that (userdb.sql) file to your mysql database.
+
+# Other webpages are included in Website-UMS folder. 
+	* This folder copy to php running path
+		ex : if you using xampp --> C:\xampp\htdocs
+
+# Then open any browser and run that folder
+	* ex : http://localhost/Website-UMS
+
+# If you use user name and Passwords for your database
+	* remove that password and user name or
+	* include your password and user name to connection file.
+		ex :  C:\xampp\htdocs\Website-UMS\inc
+
+# Admin 
+	* user name = mithun@gmail.com
+	* password = pass
+
+# Another(not admin) 
+	* user name = kasun@gmail.com
+	* password = pass
+
+# Anyone can request for membership and delete their account but need to approve admin or librarian unless can't access.
+
+# Admin can change anything 
+	* Add users
+	* Delete users
+	* Modify users
+	* Restore users
+	* Approve users Requests
+
+# But others can only change theire password only.
+
+# included 
+	* Login page ( If you are admin page redirect to admin pannel otherwise page redirect to modify password page. )
+	* User displaying page 
+	* User adding page
+	* User deleting page
+	* User Modifying page 
+	* User approving page
+	* User restoring page
+	* User modifying password page
+
+# security 
+	* User validation
+	* Encript password
+	* Removing sql queries that harm to databese by user typing or entering.
+
+# used 
+	*HTML
+	*CSS
+	*PHP
+
+
+
+
+  
